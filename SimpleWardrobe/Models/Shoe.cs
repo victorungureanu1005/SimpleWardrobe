@@ -20,7 +20,7 @@ namespace SimpleWardrobe.Models
 
         public Shoe()
         {
-
+             
         }
     }
 }
