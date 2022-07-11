@@ -17,7 +17,7 @@ namespace SimpleWardrobe.Models
         public IEnumerable<Seasons>? SeasonsAppropiate { get; set; }
         public IEnumerable<Weather>? WeatherAppropiate { get; set; }
         public IEnumerable<Style>? Style { get; set; }
-
+         
         public Shoe()
         {
              
