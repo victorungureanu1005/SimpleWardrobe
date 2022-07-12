@@ -7,18 +7,14 @@ namespace SimpleWardrobe.Models
     public class Garment : IGarments
     {
         [Required]
-        public int Id { get; set; }
+        public int GarmentId { get; set; }
 
         public string? UniqueName { get; set; }
 
         public decimal? Cost { get; set; }
-        public GarmentTypes? GarmentType { get; set; }
+        public GarmentType? GarmentType { get; set; }
 
         public short? Quantity { get; set; }
-
-        public IEnumerable<Seasons>? SeasonsAppropiate { get; set; }
-        public IEnumerable<Weather>? WeatherAppropiate { get; set; }
-        public IEnumerable<Style>? Style { get; set; }
 
         public Garment()
         {
